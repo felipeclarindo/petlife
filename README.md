@@ -1,2 +1,2 @@
-# website-petlife
- My first web site!
+# website-petshop
+Web site with html, css and javascript
