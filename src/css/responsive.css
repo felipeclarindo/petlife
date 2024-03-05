@@ -1,0 +1,10 @@
+@media(max-width: 1024px) {
+    header {
+        max-width: 100%;
+    }
+
+    header nav {
+        margin-right: 40px;
+        
+    }
+}

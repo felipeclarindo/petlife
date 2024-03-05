@@ -19,6 +19,14 @@ header nav a {
     font-weight: 600;
     padding: 32px;
     text-decoration: none;
+    transition: all .3s ease-in;
+}
+
+header nav a:hover{
+    padding: 26px;
+    border-bottom: 3px solid #e4730a;
+    color: #e4730a;
+    
 }
 
 #inicio {
@@ -46,10 +54,17 @@ h2 {
 .botao {
     background-color: #FF725E;
     border-radius: 8px;
-    color: #FFFFFF;
+    color: #fff;
     text-decoration: none;
     /* vertical, horizontal */
     padding: 16px 32px;
+    font-weight: bolder;
+    transition: all .3s ease-in;
+}
+
+.botao:hover {
+    background-color: #FF725E;
+    color: #bebbbb
 }
 
 .botao-transparente {
@@ -57,6 +72,11 @@ h2 {
     color: #FF725E;
     padding: 16px 32px;
     text-underline-offset: 4px;
+    transition: all .3s ease-in;
+}
+
+.botao-transparente:hover {
+    color: #f8a557;
 }
 
 .absolute {
@@ -110,6 +130,11 @@ h2 {
     border-radius: 8px;
     cursor: pointer;
     padding: 24px;
+    transition: all .2s ease-in;
+}
+
+.duvida h3:hover {
+    color: #838181
 }
 
 .duvida img {
@@ -160,6 +185,12 @@ footer nav a {
     margin-bottom: 16px;
     text-decoration: none;
     max-width: 350px;
+    transition: all .3s ease-in;
+}
+
+footer nav a:hover {
+    opacity: 70%;
+    text-decoration: underline;
 }
 
 footer p {
@@ -173,12 +204,20 @@ footer p a {
 }
 
 #copyright {
-    background-color: #263138;
+    background-color: #FF9A6C;
     color: #FFFFFF;
-    padding: 24px;
+    padding: 15px;
     text-align: center;
 }
 
 #copyright a {
-    color: #FF725E
+    text-decoration: none;
+    font-weight: 500;
+    color: #ac4f03;
+    transition: all .1s ease-in;
+}
+
+#copyright a:hover {
+    color: #e46b08;
+    text-decoration: underline;
 }
